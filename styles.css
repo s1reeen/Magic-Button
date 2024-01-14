@@ -4,9 +4,6 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-}
-
-.hero {
     text-align: center;
 }
 
@@ -15,27 +12,16 @@ body {
 }
 
 .my-button {
-    margin-top: 10px;
-}
-
-.my-button {
     padding: 30px 40px 30px 40px;
-    background-image: url(./background.jpg);
+    background-image: url(./images/background.jpg);
     background-size: 300px;
     background-position: -26px;
     color: #fff;
     font-size: 30px;
     text-shadow: black 0px 0px 5px;
     border-radius: 10px;
-    cursor: pointer;
-}
-
-.my-button:hover {
-    background-color: darken(#000000, 10%);
-}
-
-.my-button:hover {
-    background-color: darken(#4CAF50, 10%); /* Затемните цвет фона при наведении (пример) */
+    cursor: pointer;    
+    margin-top: 10px;
 }
 
 .my-button:hover {
